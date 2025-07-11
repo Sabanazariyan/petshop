@@ -9,7 +9,7 @@ function Article() {
       <div className={styles.content1}>
         <div className={styles.image}>
           <span>نگهداری سگ</span>
-          <img src="../../images/article/1.png" alt="" />
+          <img src="./images/article/1.png" alt="" />
           <span>مقاله جدید</span>
         </div>
         <div className={styles.text}>
@@ -39,7 +39,7 @@ function Article() {
       <div className={styles.content2}>
         <div className={styles.image}>
           <span>نگهداری سگ</span>
-          <img src="../../images/article/2.png" alt="" />
+          <img src="./images/article/2.png" alt="" />
           <span>مقاله جدید</span>
         </div>
         <div className={styles.text}>
@@ -69,7 +69,7 @@ function Article() {
       <div className={styles.content3}>
         <div className={styles.image}>
           <span>نگهداری سگ</span>
-          <img src="../../images/article/3.png" alt="" />
+          <img src="./images/article/3.png" alt="" />
           <span>مقاله جدید</span>
         </div>
         <div className={styles.text}>

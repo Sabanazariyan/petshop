@@ -22,7 +22,7 @@ function Footer() {
           </div>
           <div className={styles.about}>
             <div className={styles.image}>
-              <img src="../../images/navbar/Group.svg" alt="" />
+              <img src="./images/navbar/Group.svg" alt="" />
               <p>فروشگاه شاپت</p>
             </div>
             <p>

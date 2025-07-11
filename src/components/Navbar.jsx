@@ -143,7 +143,7 @@ function Navbar() {
       <div className={styles.container}>
         {/* لوگو */}
         <div className={styles.logo}>
-          <img src="../images/navbar/Group.svg" alt="لوگو" />
+          <img src="./images/navbar/Group.svg" alt="لوگو" />
           <p>شاپت</p>
         </div>
 
@@ -168,7 +168,7 @@ function Navbar() {
         {/* مشخصات ارسال و اصالت */}
         <div className={styles.delivery}>
           <div>
-            <img src="../images/navbar/Tick Square.svg" alt="" />
+            <img src="./images/navbar/Tick Square.svg" alt="" />
             <div>
               <p>ضمانت اصالت کالا</p>
               <span>٪۱۰۰ تضمین اصالت</span>
@@ -176,7 +176,7 @@ function Navbar() {
           </div>
           <div>
             <img
-              src="../images/navbar/iconamoon_delivery-free-thin.svg"
+              src="./images/navbar/iconamoon_delivery-free-thin.svg"
               alt=""
             />
             <div>
@@ -190,15 +190,15 @@ function Navbar() {
         <div className={styles.desktopItems}>
           <div className={styles.profile}>
             <div className={styles.buy}>
-              <img src="../images/navbar/Buy.svg" alt="" />
+              <img src="./images/navbar/Buy.svg" alt="" />
               <div className={styles.circle1}>۲</div>
             </div>
             <div className={styles.like}>
-              <img src="../images/navbar/Combined-Shape.svg" alt="" />
+              <img src="./images/navbar/Combined-Shape.svg" alt="" />
               <div className={styles.circle2}>۰</div>
             </div>
             <div>
-              <img src="../images/navbar/Profile.svg" alt="" />
+              <img src="./images/navbar/Profile.svg" alt="" />
             </div>
           </div>
         </div>
@@ -208,15 +208,15 @@ function Navbar() {
           <div className={styles.mobileMenu}>
             <div className={styles.profile}>
               <div className={styles.buy}>
-                <img src="../images/navbar/Buy.svg" alt="" />
+                <img src="./images/navbar/Buy.svg" alt="" />
                 <div className={styles.circle1}>۲</div>
               </div>
               <div className={styles.like}>
-                <img src="../images/navbar/Combined-Shape.svg" alt="" />
+                <img src="./images/navbar/Combined-Shape.svg" alt="" />
                 <div className={styles.circle2}>۰</div>
               </div>
               <div>
-                <img src="../images/navbar/Profile.svg" alt="" />
+                <img src="./images/navbar/Profile.svg" alt="" />
               </div>
             </div>
 

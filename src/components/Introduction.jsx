@@ -22,13 +22,13 @@ function Introduction() {
         </div>
       </div>
       <div className={styles.image}>
-        <img src="../images/introduction/6.png" alt="" />
+        <img src="./images/introduction/6.png" alt="" />
         <p>تخفیف تا</p>
-        <img src="../images/introduction/7.png" alt="" />
+        <img src="./images/introduction/7.png" alt="" />
       </div>
 
       <img
-        src="../images/introduction/1.png"
+        src="./images/introduction/1.png"
         alt=""
         style={{
           position: "absolute",
@@ -38,12 +38,12 @@ function Introduction() {
         }}
       />
       <img
-        src="../images/introduction/2.png"
+        src="./images/introduction/2.png"
         alt=""
         style={{ position: "absolute", right: "0", top: "60px" }}
       />
       <img
-        src="../images/introduction/3.png"
+        src="./images/introduction/3.png"
         alt=""
         style={{
           position: "absolute",
@@ -53,12 +53,12 @@ function Introduction() {
         }}
       />
       <img
-        src="../images/introduction/4.png"
+        src="./images/introduction/4.png"
         alt=""
         style={{ position: "absolute", left: "0", top: "140px" }}
       />
       <img
-        src="../images/introduction/5.png"
+        src="./images/introduction/5.png"
         alt=""
         style={{ position: "absolute", bottom: "0", right: "270px" }}
       />
