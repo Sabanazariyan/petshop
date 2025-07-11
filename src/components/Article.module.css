@@ -133,11 +133,19 @@
   .content2 span:first-child,
   .content3 span:first-child {
     font-size: 0.6rem;
+    top: 10px;
   }
   .content1 span:last-child,
   .content2 span:last-child,
   .content3 span:last-child {
     font-size: 0.6rem;
     right: 90px;
+    top: 10px;
+  }
+  .author i,
+  .date i {
+    display: inline-block;
+    color: #f7763d;
+    padding: 6px 0 0 5px;
   }
 }

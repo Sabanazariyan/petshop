@@ -104,16 +104,20 @@
   }
 }
 
-@media(max-width:797px){
-    .columncontainer {
-        justify-content: space-evenly;
-        
-    }
+@media (max-width: 797px) {
+  .columncontainer {
+    justify-content: space-evenly;
+  }
 }
 
-@media(max-width:640px){
-    .about , .access , .links {
-        width: 100%;
-        text-align: center;
-    }
+@media (max-width: 640px) {
+  .about,
+  .access,
+  .links {
+    width: 100%;
+    text-align: center;
+  }
+  .about {
+    margin-right: 20%;
+  }
 }
