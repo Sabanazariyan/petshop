@@ -1,0 +1,81 @@
+.container {
+  width: 100%;
+}
+
+.text {
+  width: 100vw;
+  height: 68px;
+  background-color: #f7763d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  font-family: "YekanBakhBold";
+  flex-wrap: wrap;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.text span {
+  background-color: #fff;
+  color: #f7763d;
+  padding: 0 15px;
+  border-radius: 32px;
+  white-space: nowrap;
+}
+
+.text p {
+  color: #fff;
+  margin-right: 7px;
+}
+
+/* استایل پایه (برای تبلت‌ها و عرض‌های میانی بین موبایل و دسکتاپ) */
+.text {
+  width: 100%;
+  height: 68px;
+  background-color: #f7763d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-family: "YekanBakhBold";
+  flex-wrap: wrap;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.text span {
+  background-color: #fff;
+  color: #f7763d;
+  padding: 0 15px;
+  border-radius: 32px;
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+.text p {
+  color: #fff;
+  margin: 0 7px;
+  font-size: 1rem;
+}
+
+
+/* 📱 3. موبایل (زیر 640px) */
+@media (max-width: 639px) {
+  .text {
+    flex-direction: column;
+    font-size: 1rem;
+    height: auto;
+    padding: 12px;
+    gap: 6px;
+  }
+
+  .text span,
+  .text p {
+    font-size: 0.95rem;
+  }
+
+  .text p {
+    margin: 0;
+  }
+}

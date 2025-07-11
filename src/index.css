@@ -1,0 +1,35 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: "yekanBakhBold", Arial, Helvetica, sans-serif;
+  /* border: 1px solid black; */
+}
+
+@font-face {
+  font-family: "yekanBakhBold";
+  src: url("./fonts/YekanBakhBold.woff");
+}
+@font-face {
+  font-family: "yekanBakhMedium";
+  src: url("./fonts/YekanBakhMedium.woff");
+}
+@font-face {
+  font-family: "yekanBakhHeavy";
+  src: url("./fonts/yekanBakhHeavy.woff");
+}
+@font-face {
+  font-family: "iranyekanwebmedium";
+  src: url("./fonts/iranyekanwebmedium.woff");
+}
+@font-face {
+  font-family: "iranyekanwebregular";
+  src: url("./fonts/iranyekanwebregular.woff");
+}

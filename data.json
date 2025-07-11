@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "غذای گربه مفید پریمیوم (4 کیلوگرم)",
+    "price": "437000",
+    "image": "./images/foods/food1.png",
+    "category": "cat"
+  },
+  {
+    "id": 2,
+    "name": "غذای گربه kitzy پریمیوم (2کیلوگرم)",
+    "price": "437000",
+    "image": "./images/foods/food2.png",
+    "category": "cat"
+  },
+  {
+    "id": 3,
+    "name": "غذای سگ science (3کیلوگرم)",
+    "price": "437000",
+    "image": "./images/foods/food3.png",
+    "category": "dog"
+  },
+  {
+    "id": 4,
+    "name": "مولتی ویتامین گربه nulo (4کیلوگرم)",
+    "price": "437000",
+    "image": "./images/foods/food4.png",
+    "category": "cat"
+  }
+]

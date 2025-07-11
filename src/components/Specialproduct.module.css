@@ -1,0 +1,313 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1300px;
+  margin: 100px auto 50px;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3ea6dd;
+  border-radius: 13px;
+  height: 132px;
+  position: relative;
+}
+
+.text {
+  display: flex;
+  justify-content: space-between;
+  width: 580px;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.text p {
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.link {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+  background-color: #fff;
+  border-radius: 35px;
+}
+
+.link span {
+  display: inline-block;
+  font-size: 1.4rem;
+  color: #f7763d;
+  padding: 5px 11px;
+}
+
+.link > div {
+  width: 29px;
+  height: 29px;
+  background-color: #f7763d;
+  border-radius: 50%;
+  margin: auto 0;
+  margin-left: 5px;
+}
+
+.link > div i {
+  display: inline-block;
+  color: #fff;
+  font-size: 1.4rem;
+  padding: 3px 4px 0 0;
+}
+
+.image1,
+.image2,
+.image3,
+.image4,
+.image5 {
+  position: absolute;
+}
+
+.image1 {
+  right: 600px;
+  top: 40px;
+}
+
+.image2 {
+  right: 770px;
+}
+
+.image3 {
+  right: 950px;
+  top: -55px;
+}
+
+.image4 {
+  right: 1050px;
+  top: 55px;
+}
+
+.image5 {
+  right: 1200px;
+  top: 20px;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.product1,
+.product2,
+.product3,
+.product4 {
+  width: 291px;
+  border-radius: 30px;
+  position: relative;
+}
+
+.product1 img:first-child,
+.product2 img:first-child,
+.product3 img:first-child,
+.product4 img:first-child {
+  position: absolute;
+  bottom: 0;
+  border-radius: 30px;
+}
+
+.product1 img:last-child,
+.product2 img:last-child,
+.product3 img:last-child,
+.product4 img:last-child {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 30px;
+}
+
+.product1 .impro,
+.product2 .impro,
+.product3 .impro,
+.product4 .impro {
+  position: relative;
+  z-index: 1000;
+}
+
+.product1 .impro {
+  right: 20px;
+}
+
+.product2 .impro {
+  right: 40px;
+  bottom: -8px;
+}
+
+.product3 .impro {
+  right: 50px;
+  bottom: -50px;
+}
+
+.product4 .impro {
+  right: 10px;
+  bottom: -15px;
+}
+
+.product1 p,
+.product2 p,
+.product3 p,
+.product4 p {
+  text-align: center;
+  color: #fff;
+  font-size: 1.2rem;
+  padding-top: 50px;
+}
+
+.product1 > div,
+.product2 > div,
+.product3 > div,
+.product4 > div {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  margin: 15px 60px 30px 0;
+  border-radius: 35px;
+  color: #fff;
+}
+
+.product1 > div {
+  background-color: #e77291;
+  padding: 5px 8px 3px 8px;
+}
+
+.product1 > div > div {
+  background-color: #fff;
+  color: #e77291;
+  width: 19.6px;
+  height: 19.6px;
+  border-radius: 50%;
+}
+
+.product1 > div > div i {
+  display: inline-block;
+  padding: 1.5px 2.5px 0 0;
+}
+
+.product1 {
+  background-color: #ff9ab3;
+}
+
+.product2 {
+  background-color: #648958;
+}
+
+.product2 > div {
+  background-color: #88bd88;
+  padding: 5px 8px 3px 8px;
+}
+
+.product2 > div > div {
+  background-color: #fff;
+  color: #88bd88;
+  width: 19.6px;
+  height: 19.6px;
+  border-radius: 50%;
+}
+
+.product2 > div > div i {
+  display: inline-block;
+  padding: 1.5px 2.5px 0 0;
+}
+
+.product3 {
+  background-color: #ec8a3c;
+}
+
+.product3 > div {
+  background-color: #cc6513;
+  padding: 5px 8px 3px 8px;
+}
+
+.product3 > div > div {
+  background-color: #fff;
+  color: #cc6513;
+  width: 19.6px;
+  height: 19.6px;
+  border-radius: 50%;
+}
+
+.product3 > div > div i {
+  display: inline-block;
+  padding: 1.5px 2.5px 0 0;
+}
+
+.product4 {
+  background-color: #af56c6;
+}
+
+.product4 > div {
+  background-color: #d086e3;
+  padding: 5px 8px 3px 8px;
+}
+
+.product4 > div > div {
+  background-color: #fff;
+  color: #d086e3;
+  width: 19.6px;
+  height: 19.6px;
+  border-radius: 50%;
+}
+
+.product4 > div > div i {
+  display: inline-block;
+  padding: 1.5px 2.5px 0 0;
+}
+
+@media (max-width: 1300px) {
+  .container {
+    margin: 100px 15px 50px;
+  }
+  .image {
+    display: none;
+  }
+  .text {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media (max-width:963px){
+  .products{
+    justify-content: space-evenly;
+  }
+}
+
+@media(max-width:642px){
+  .product3 .impro {
+    bottom: 10px;
+  }
+}
+
+@media(max-width:604px){
+  .text {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .text p {
+    font-size: 1.5rem;
+  }
+  .link {
+    justify-content: space-evenly;
+  }
+  .link span {
+    font-size: 1rem;
+  }
+  .link > div {
+    width: 22px;
+    height: 22px;
+  }
+  .link > div i {
+    font-size: 1.1rem;
+    padding: 1px;
+  }
+}

@@ -1,0 +1,143 @@
+.container {
+  max-width: 1300px;
+  margin: 35px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.fish {
+  width: 392px;
+  height: 99px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(81, 36, 196, 0.04);
+  border-radius: 19px;
+  padding: 15px;
+}
+
+.fish p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-left: 120px;
+}
+
+.fish i {
+  display: inline-block;
+  font-size: 1.6rem;
+  color: #fff;
+  padding-right: 8px;
+  padding-top: 7px;
+}
+
+.fish > div {
+  width: 40px;
+  height: 40px;
+  background-color: #5124c4;
+  border-radius: 50%;
+}
+
+.cat {
+  width: 392px;
+  height: 99px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(224, 245, 255, 0.31);
+  border-radius: 19px;
+  padding: 15px;
+}
+
+.cat p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-left: 120px;
+}
+
+.cat i {
+  display: inline-block;
+  font-size: 1.6rem;
+  color: #fff;
+  padding-right: 8px;
+  padding-top: 7px;
+}
+
+.cat > div {
+  width: 40px;
+  height: 40px;
+  background-color: #519bc2;
+  border-radius: 50%;
+}
+
+.dog {
+  width: 392px;
+  height: 99px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(247, 118, 61, 0.13);
+  border-radius: 19px;
+  padding: 15px;
+  border: 2px dashed #f7763d;
+}
+
+.dog p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-left: 120px;
+}
+
+.dog i {
+  display: inline-block;
+  font-size: 1.6rem;
+  color: #fff;
+  padding-right: 8px;
+  padding-top: 7px;
+}
+
+.dog > div {
+  width: 40px;
+  height: 40px;
+  background-color: #f7763d;
+  border-radius: 50%;
+}
+@media (min-width: 1024px) and (max-width: 1300px) {
+  .container {
+    margin: 35px 15px;
+  }
+}
+
+@media (max-width: 1175px) {
+  .container {
+    justify-content: center;
+  }
+  .cat,
+  .dog,
+  .fish {
+    margin-bottom: 30px;
+  }
+  .cat p,
+  .dog p,
+  .fish p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 639px) {
+  .container {
+    width: 80%;
+  }
+  .cat p,
+  .dog p,
+  .fish p {
+    padding-left: 40px;
+    font-size: 1rem;
+  }
+  .cat img,
+  .dog img,
+  .fish img {
+    width: 60px;
+    height: 60px;
+  }
+}
